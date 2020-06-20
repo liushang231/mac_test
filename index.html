@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>vue 示例</title>
+    </head>
+
+    <body>
+        <div>
+
+            <lable><input type="checkbox" v-model="language" value="ch"> chinese</lable>
+            <lable><input type="checkbox" v-model="language" value="en"> english</lable>
+            <lable><input type="checkbox" v-model="language" value="fn"> French</lable>
+        </div>
+        <script src="./vue.js"></script>
+        <script>
+            var vm = new Vue({
+                el:"#app",
+                data:{
+                    language:['zh','en']
+                }
+            })
+        </script>
+    </body>
+</html>
+one branch edit
+one branch two edit
+two branch one edit
